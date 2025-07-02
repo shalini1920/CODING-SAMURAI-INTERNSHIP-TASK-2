@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GlowUp – Smart Skincare</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">GlowUp</div>
+    <nav class="nav-links">
+      <a href="#hero">Home</a>
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="darkModeToggle">🌙</button>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="hero-text">
+      <h1>Revolutionize Your Skincare Routine</h1>
+      <p>GlowUp is a smart device designed to help you get clear and glowing skin effortlessly.</p>
+      <a href="#signup" class="cta-button">Get Started</a>
+    </div>
+    <div class="hero-image">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT60UsPNGo0DcLMVxCMrDZO8AkdaShfWbXOQ&s" alt="GlowUp Smart Device">
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <h2>Features</h2>
+    <div class="feature-boxes">
+      <div class="feature">
+        <h3>💡 AI-Powered Analysis</h3>
+        <p>Analyze your skin daily and get personalized tips.</p>
+      </div>
+      <div class="feature">
+        <h3>📦 Portable Design</h3>
+        <p>Compact and stylish, take it anywhere.</p>
+      </div>
+      <div class="feature">
+        <h3>📱 App Integration</h3>
+        <p>Connect with our app and track your progress.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pricing" id="pricing">
+    <h2>Pricing</h2>
+    <div class="pricing-cards">
+      <div class="price-card">
+        <h3>Starter</h3>
+        <p>₹1,999</p>
+        <p>Basic features for daily use</p>
+      </div>
+      <div class="price-card popular">
+        <h3>Pro</h3>
+        <p>₹3,499</p>
+        <p>All features + app support</p>
+      </div>
+      <div class="price-card">
+        <h3>Elite</h3>
+        <p>₹5,999</p>
+        <p>Advanced AI & Premium Support</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="signup" id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions or suggestions? We'd love to hear from you!</p>
+    <form>
+      <input type="email" placeholder="Enter your email" required />
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 GlowUp. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('darkModeToggle');
+    toggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+# 🌟 GlowUp – Responsive Landing Page
+
+A sleek, modern, and responsive landing page for a fictional smart skincare product called *GlowUp*. Built using HTML and CSS with interactive features, dark mode toggle, and responsive layout using Flexbox and Grid.
+
+---
+
+## 📸 Demo
+
+![GlowUp Preview]()
+
+---
+
+## 🚀 Features
+
+- ✅ Fully responsive design (mobile-first)
+- ✅ Dark mode toggle 🌙
+- ✅ Smooth scroll and fade-in animations
+- ✅ Interactive navigation (Home, Features, Pricing, Contact)
+- ✅ Hover effects and transition animations
+- ✅ Clean UI with real image from Unsplash
+- ✅ Accessible and mobile-friendly layout
+
+---
+
+---
+
+## 🧪 Technologies Used
+
+- *HTML5*
+- *CSS3*
+  - Flexbox
+  - CSS Grid
+  - Media Queries
+  - Animations & Transitions
+
+---
+
